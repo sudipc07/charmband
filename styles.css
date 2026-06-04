@@ -522,7 +522,7 @@ section[id] {
   padding: 4px 0 4px 22px;
 }
 
-.infrastructure-line {
+.trust-line {
   width: min(100%, var(--max));
   margin: clamp(46px, 7vw, 86px) auto 0;
   border-top: 1px solid var(--line);

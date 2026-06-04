@@ -182,7 +182,7 @@ Body — three short paragraphs or cards:
 - Decades of embedded hardware development across consumer and industrial product categories
 
 Closing line:
-> *An independent infrastructure layer that integrates with whatever FM management software our customers already use, rather than competing with it.*
+> *When a shift is questioned, CHARM gives your team a defensible record: what happened, where it happened, and how long it took.*
 
 ### Section 7 — Final CTA
 
