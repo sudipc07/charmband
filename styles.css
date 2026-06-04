@@ -75,33 +75,23 @@ img {
 
 .brand {
   display: inline-flex;
-  flex-direction: column;
-  gap: 0;
-  font-weight: 760;
-  letter-spacing: 0;
-  line-height: 0.82;
-  text-transform: lowercase;
+  width: 126px;
+  align-items: center;
 }
 
-.brand span {
-  font-size: 1.38rem;
+.brand img {
+  width: 100%;
+  height: auto;
 }
 
-.brand sup {
-  position: relative;
-  top: -0.16em;
-  margin-left: 1px;
-  font-size: 0.48em;
+.logo-dark,
+.site-header.is-scrolled .logo-light,
+.footer-brand .logo-dark {
+  display: none;
 }
 
-.brand small {
-  margin-left: 2px;
-  color: currentColor;
-  font-size: 0.72rem;
-  font-weight: 450;
-  letter-spacing: 0.08em;
-  opacity: 0.72;
-  text-transform: uppercase;
+.site-header.is-scrolled .logo-dark {
+  display: block;
 }
 
 .site-nav {

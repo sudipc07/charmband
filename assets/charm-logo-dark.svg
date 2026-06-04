@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 150" role="img" aria-labelledby="title desc">
+  <title id="title">CHARM™ Band logo</title>
+  <desc id="desc">A geometric open C mark enclosing CHARM with two blue band rails and Band beneath.</desc>
+  <defs>
+    <style>
+      .rail{stroke:#0877d8;stroke-width:7;stroke-linecap:round}
+      .mark{fill:none;stroke:#092326;stroke-width:8;stroke-linecap:round}
+      .word{fill:#092326;font-family:Inter,Arial,sans-serif;font-size:44px;font-weight:760;letter-spacing:5px}
+      .tm{fill:#092326;font-family:Inter,Arial,sans-serif;font-size:13px;font-weight:760}
+      .band{fill:#092326;font-family:Inter,Arial,sans-serif;font-size:34px;font-weight:540;letter-spacing:14px}
+    </style>
+  </defs>
+  <path class="mark" d="M80 24C38 25 15 52 15 78s23 53 65 54" />
+  <path class="rail" d="M79 24H255" />
+  <path class="rail" d="M79 106H255" />
+  <text class="word" x="103" y="83">CHARM</text>
+  <text class="tm" x="263" y="45">™</text>
+  <text class="band" x="70" y="139">BAND</text>
+</svg>
