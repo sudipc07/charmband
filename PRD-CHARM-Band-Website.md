@@ -1,6 +1,6 @@
 # PRD — charm.band Website
 
-A real-feeling marketing site for CHARM Band, ahead of product launch. The site exists to start sales conversations with FM contractors, build credibility with partners and advisors, and warm the ground for hospital introductions. This document is the full context Codex needs to write copy without further briefing.
+A real-feeling marketing site for CHARM Band, ahead of product launch. The site exists to start sales conversations with FM contractors, build credibility with partners and advisors, and keep the door open for future adjacent markets without pitching to them yet. This document is the full context Codex needs to write copy without further briefing.
 
 **Project type.** Marketing website. Single scrollable page.
 
@@ -22,13 +22,13 @@ A real-feeling marketing site for CHARM Band, ahead of product launch. The site 
 
 **The starting market.** Tier 2 facilities management contractors serving large corporate clients. These companies are squeezed between Tier 1 brands and price-cutting smaller players; CHARM gives them a credibility edge against Tier 1 sales pitches without the Tier 1 price tag.
 
-**Adjacent markets explicitly named on the site.** Hotels (in-house housekeeping). Hospitals (infection control, regulatory compliance, defensible audit trails for hospital-acquired infections and liability cases).
+**Adjacent markets explicitly named on the site.** Hotels (in-house housekeeping). Corporate sites and managed facilities. Hospitals are a future adjacency, but v1 should not pitch to hospitals yet.
 
 **Why now.**
 - Wearable sensor hardware is cheap and reliable
 - On-device machine learning has matured for low-power activity recognition
 - The FM market is consolidating; differentiation matters
-- Hospital infection control is a global crisis that current monitoring tools don't solve
+- Infection control is a future adjacency, but not part of the v1 website pitch
 
 ---
 
@@ -52,12 +52,12 @@ The site is read by four distinct audiences. Most of the copy should land for th
 - **What lands:** "integrates with your existing software," "we provide the band and the activity recognition; your platform owns the rest," "API and SDK ready for your developers"
 - **What kills the pitch:** positioning CHARM as a competing FM management product
 
-### Audience 3: Hospital decision-maker (admin, infection control, facilities head)
+### Audience 3: Future hospital decision-maker (not v1 website focus)
 
-- Reads later, but should not be alienated now
+- Reads later, but should not be directly pitched to yet
 - Cares about: HAI rates, JCI/NABH compliance, audit trails, malpractice exposure
 - **What lands:** "defensible record of cleaning protocols," "continuous infection-control evidence," "audit trail for outbreak investigations"
-- The site should *mention* hospitals as a target market but not lead with them yet
+- The site should not mention hospitals in the v1 pitch
 
 ### Audience 4: Future investor, advisor, hire
 
@@ -158,8 +158,8 @@ Three cards:
 **Card 2 — Hotels**
 > Verifiable housekeeping coverage across rooms and shifts. Brand-standard enforcement without supervisor overhead.
 
-**Card 3 — Hospitals**
-> Continuous evidence of cleaning-protocol compliance. Defensible audit trails for infection-control review.
+**Card 3 — Corporate sites**
+> A clearer record of work done across offices, campuses, and managed facilities.
 
 ### Section 5 — How it works
 
@@ -186,10 +186,10 @@ Closing line:
 
 ### Section 7 — Final CTA
 
-**Section headline:** *Coming soon. Pilot partners welcome.*
+**Section headline:** *Interested in joining us?*
 
 **Body:**
-> CHARM Band is in active development. We're working with a small set of pilot partners — FM contractors and forward-looking hospital administrators — to refine the system on real shifts. If you'd like to be one of them, leave your details.
+> CHARM Band is in active development. If this kind of evidence would help your operation, leave your details and we'll be in touch.
 
 **Form fields:** Name. Company. Role. Email. *(Optional)* What kind of operation you run.
 
