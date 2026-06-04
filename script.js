@@ -38,9 +38,39 @@ if ("IntersectionObserver" in window) {
 }
 
 if (form && formNote) {
-  form.addEventListener("submit", (event) => {
+  form.addEventListener("submit", async (event) => {
     event.preventDefault();
 
-    formNote.textContent = "Submissions will open here before launch.";
+    const submitButton = form.querySelector("button[type='submit']");
+    const originalButtonText = submitButton ? submitButton.textContent : "";
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = "Sending...";
+    }
+
+    formNote.textContent = "Sending your details...";
+
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
+
+      form.reset();
+      formNote.textContent = "Thank you. We'll be in touch soon.";
+    } catch {
+      formNote.textContent = "Something went wrong. Please try again in a moment.";
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = originalButtonText;
+      }
+    }
   });
 }

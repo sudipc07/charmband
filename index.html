@@ -254,33 +254,40 @@
             <h2 id="pilot-title">Interested in joining us?</h2>
             <p>
               CHARM™ Band is in active development. If this kind of evidence would
-              help your operation, the early-access form will open here soon.
+              help your operation, leave your details and we'll be in touch.
             </p>
           </div>
-          <form class="pilot-form reveal" id="pilot-form" aria-describedby="form-note">
+          <form
+            class="pilot-form reveal"
+            id="pilot-form"
+            action="https://formspree.io/f/xlgkdrkk"
+            method="POST"
+            aria-describedby="form-note"
+          >
             <label>
               <span>Name</span>
-              <input name="Name" autocomplete="name" disabled />
+              <input name="name" autocomplete="name" required />
             </label>
             <label>
               <span>Company</span>
-              <input name="Company" autocomplete="organization" disabled />
+              <input name="company" autocomplete="organization" required />
             </label>
             <label>
               <span>Role</span>
-              <input name="Role" autocomplete="organization-title" disabled />
+              <input name="role" autocomplete="organization-title" required />
             </label>
             <label>
               <span>Email</span>
-              <input type="email" name="Email" autocomplete="email" disabled />
+              <input type="email" name="email" autocomplete="email" required />
             </label>
             <label class="full">
               <span>What kind of operation do you run? <em>Optional</em></span>
-              <textarea name="Operation" rows="4" disabled></textarea>
+              <textarea name="operation" rows="4"></textarea>
             </label>
-            <button class="button button-primary full" type="submit" disabled>Interest Form Opening Soon</button>
+            <input type="hidden" name="_subject" value="CHARM™ Band interest" />
+            <button class="button button-primary full" type="submit">Register Interest</button>
             <p class="form-note" id="form-note" data-form-note>
-              Submissions will open here before launch.
+              Your details go directly to the CHARM™ team.
             </p>
           </form>
         </div>

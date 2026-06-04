@@ -189,11 +189,13 @@ Closing line:
 **Section headline:** *Interested in joining us?*
 
 **Body:**
-> CHARM™ Band is in active development. If this kind of evidence would help your operation, the early-access form will open here soon.
+> CHARM™ Band is in active development. If this kind of evidence would help your operation, leave your details and we'll be in touch.
 
 **Form fields:** Name. Company. Role. Email. *(Optional)* What kind of operation you run.
 
-**Submit button:** *Interest Form Opening Soon* until a real submission path exists.
+**Submit button:** *Register Interest*
+
+**Form endpoint:** https://formspree.io/f/xlgkdrkk
 
 ### Section 8 — Footer
 
