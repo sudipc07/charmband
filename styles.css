@@ -249,6 +249,13 @@ h3 {
   background: #d3aa66;
 }
 
+.button:disabled,
+.pilot-form input:disabled,
+.pilot-form textarea:disabled {
+  cursor: not-allowed;
+  opacity: 0.62;
+}
+
 .text-link {
   display: inline-flex;
   color: rgba(255, 253, 250, 0.86);
@@ -553,13 +560,6 @@ section[id] {
   max-width: 620px;
   color: rgba(255, 253, 250, 0.72);
   font-size: 1.08rem;
-}
-
-.contact-link {
-  display: inline-flex;
-  margin-top: 18px;
-  color: var(--gold);
-  font-weight: 760;
 }
 
 .pilot-form {

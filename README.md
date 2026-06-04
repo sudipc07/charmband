@@ -1,4 +1,4 @@
-# CHARM Band Website
+# CHARM™ Band Website
 
 Static marketing site for CHARM™ Band, designed for Cloudflare Pages.
 

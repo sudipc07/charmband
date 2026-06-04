@@ -1,6 +1,6 @@
 # PRD — charm.band Website
 
-A real-feeling marketing site for CHARM Band, ahead of product launch. The site exists to start sales conversations with FM contractors, build credibility with partners and advisors, and keep the door open for future adjacent markets without pitching to them yet. This document is the full context Codex needs to write copy without further briefing.
+A real-feeling marketing site for CHARM™ Band, ahead of product launch. The site exists to start sales conversations with FM contractors, build credibility with partners and advisors, and keep the door open for future adjacent markets without pitching to them yet. This document is the full context Codex needs to write copy without further briefing.
 
 **Project type.** Marketing website. Single scrollable page.
 
@@ -8,19 +8,19 @@ A real-feeling marketing site for CHARM Band, ahead of product launch. The site 
 
 **Trademark.** Use CHARM™ throughout. ™ symbol is fine (common-law mark); ® will come after registration.
 
-**Brand mark.** CHARM stands for **Continuous Human Activity Recognition Module**. The acronym is used as the product name throughout — "CHARM Band" — but the full expansion should appear at least once on the page, likely in the Hero or "Why us" section, so a first-time reader understands what the system actually does.
+**Brand mark.** CHARM™ stands for **Continuous Human Activity Recognition Module**. The acronym is used as the product name throughout — "CHARM™ Band" — but the full expansion should appear at least once on the page, likely in the Hero or "Why us" section, so a first-time reader understands what the system actually does.
 
 ---
 
 ## 1. Strategic context
 
-**What CHARM Band is.** A wristband that continuously recognises human activity through embedded motion sensors. Worn by facilities management workers during their shifts. Produces a verifiable narrative of where the worker was, what they were doing, and for how long — automatically, without the worker having to start, stop, scan, or remember anything.
+**What CHARM™ Band is.** A wristband that continuously recognises human activity through embedded motion sensors. Worn by facilities management workers during their shifts. Produces a verifiable narrative of where the worker was, what they were doing, and for how long — automatically, without the worker having to start, stop, scan, or remember anything.
 
-**The category.** B2B2B infrastructure for facilities management. CHARM is not an FM management app; it's the evidence layer underneath whatever FM management software a company already uses or builds. The analogy is Twilio: don't own the customer-facing app, own the hard sensor + ML layer everyone has to integrate with.
+**The category.** B2B2B infrastructure for facilities management. CHARM™ is not an FM management app; it's the evidence layer underneath whatever FM management software a company already uses or builds. The analogy is Twilio: don't own the customer-facing app, own the hard sensor + ML layer everyone has to integrate with.
 
-**The differentiator.** Existing solutions — smartphone apps, QR check-ins, manual supervisor logs — all depend on humans to do something correctly: have or carry a phone, start and stop a session on time, scan a code, log honestly. They all break in the field, where worker reality often doesn't match the solution's assumptions. CHARM doesn't require the worker to do anything beyond wear the band.
+**The differentiator.** Existing solutions — smartphone apps, QR check-ins, manual supervisor logs — all depend on humans to do something correctly: have or carry a phone, start and stop a session on time, scan a code, log honestly. They all break in the field, where worker reality often doesn't match the solution's assumptions. CHARM™ doesn't require the worker to do anything beyond wear the band.
 
-**The starting market.** Tier 2 facilities management contractors serving large corporate clients. These companies are squeezed between Tier 1 brands and price-cutting smaller players; CHARM gives them a credibility edge against Tier 1 sales pitches without the Tier 1 price tag.
+**The starting market.** Tier 2 facilities management contractors serving large corporate clients. These companies are squeezed between Tier 1 brands and price-cutting smaller players; CHARM™ gives them a credibility edge against Tier 1 sales pitches without the Tier 1 price tag.
 
 **Adjacent markets explicitly named on the site.** Hotels (in-house housekeeping). Corporate sites and managed facilities. Hospitals are a future adjacency, but v1 should not pitch to hospitals yet.
 
@@ -48,9 +48,9 @@ The site is read by four distinct audiences. Most of the copy should land for th
 ### Audience 2: Mid-sized FM company with in-house IT (partnership prospect)
 
 - Has bought or built in-house IT capability
-- May see CHARM as competition or complement depending on framing
+- May see CHARM™ as competition or complement depending on framing
 - **What lands:** "integrates with your existing software," "we provide the band and the activity recognition; your platform owns the rest," "API and SDK ready for your developers"
-- **What kills the pitch:** positioning CHARM as a competing FM management product
+- **What kills the pitch:** positioning CHARM™ as a competing FM management product
 
 ### Audience 3: Future hospital decision-maker (not v1 website focus)
 
@@ -74,7 +74,7 @@ The site is read by four distinct audiences. Most of the copy should land for th
 - Professional, substance-first, present-tense
 - Confident without being cocky
 - Global B2B sensibility — restrained, clear, credible. More infrastructure partner than Silicon Valley hype.
-- Worker-respectful. CHARM serves worker dignity (accurate pay, evidence against unfair dismissal) as much as employer interests. The copy should reflect that.
+- Worker-respectful. CHARM™ serves worker dignity (accurate pay, evidence against unfair dismissal) as much as employer interests. The copy should reflect that.
 
 ### Words and phrases to use
 
@@ -108,7 +108,7 @@ The site is read by four distinct audiences. Most of the copy should land for th
 > *"Know exactly what your workers are doing, every second of every shift. Catch the slackers."*
 
 **Right:**
-> *"CHARM Band turns every shift into a verifiable record — automatically. No smartphone. No QR codes. No supervisor guesswork. Just continuous evidence that the work happened, the way the client expects."*
+> *"CHARM™ Band turns every shift into a verifiable record — automatically. No smartphone. No QR codes. No supervisor guesswork. Just continuous evidence that the work happened, the way the client expects."*
 
 ---
 
@@ -118,8 +118,8 @@ The site is read by four distinct audiences. Most of the copy should land for th
 
 - **Wordmark:** CHARM™ (with "Band" in lighter weight beneath)
 - **Headline:** *Did the work actually get done?*
-- **Subheadline (2 lines):** *CHARM Band turns each shift into a verifiable narrative. Continuous sensor-driven activity recognition — no smartphone, no QR codes, no supervisor guesswork.*
-- **Primary CTA button:** *Request a Pilot*
+- **Subheadline (2 lines):** *CHARM™ Band turns each shift into a verifiable narrative. Continuous sensor-driven activity recognition — no smartphone, no QR codes, no supervisor guesswork.*
+- **Primary CTA button:** *Register Interest*
 - **Secondary, smaller link:** *How it works ↓*
 
 ### Section 2 — The problem
@@ -137,12 +137,12 @@ Three cards or stacked sections, one paragraph each:
 **Card 3 — The supervisor honesty problem.**
 > Manual logs assume supervisors mark workers present when present and absent when absent. In an industry with high attrition and per-head payment pressure, that assumption quietly breaks every shift.
 
-### Section 3 — The CHARM approach
+### Section 3 — The CHARM™ approach
 
 **Section headline:** *Evidence that doesn't depend on what anyone remembers to do.*
 
 **Body copy:**
-> The CHARM Band is a sensor-grade wristband worn by the worker through their shift. Embedded motion sensors continuously recognise activity patterns — walking, mopping, vacuuming, scrubbing, standing idle. The band is paired to the worker at shift start and returned at shift end. The output is a complete narrative of where the worker was, what they were doing, and for how long.
+> The CHARM™ Band is a sensor-grade wristband worn by the worker through their shift. Embedded motion sensors continuously recognise activity patterns — walking, mopping, vacuuming, scrubbing, standing idle. The band is paired to the worker at shift start and returned at shift end. The output is a complete narrative of where the worker was, what they were doing, and for how long.
 >
 > There is no app for the worker. Nothing to start. Nothing to stop. Nothing to remember.
 
@@ -167,7 +167,7 @@ Three cards:
 
 Three-step visual flow:
 
-1. **Pair.** Worker taps their ID card at the shift station and is issued a CHARM Band for the day.
+1. **Pair.** Worker taps their ID card at the shift station and is issued a CHARM™ Band for the day.
 2. **Wear.** Worker performs the shift as normal. The band continuously recognises activity and zone presence in the background.
 3. **Return.** At shift end, the band returns to the station. The full shift narrative is ready for review.
 
@@ -182,24 +182,24 @@ Body — three short paragraphs or cards:
 - Decades of embedded hardware development across consumer and industrial product categories
 
 Closing line:
-> *When a shift is questioned, CHARM gives your team a defensible record: what happened, where it happened, and how long it took.*
+> *When a shift is questioned, CHARM™ gives your team a defensible record: what happened, where it happened, and how long it took.*
 
 ### Section 7 — Final CTA
 
 **Section headline:** *Interested in joining us?*
 
 **Body:**
-> CHARM Band is in active development. If this kind of evidence would help your operation, leave your details and we'll be in touch.
+> CHARM™ Band is in active development. If this kind of evidence would help your operation, the early-access form will open here soon.
 
 **Form fields:** Name. Company. Role. Email. *(Optional)* What kind of operation you run.
 
-**Submit button:** *Register Interest*
+**Submit button:** *Interest Form Opening Soon* until a real submission path exists.
 
 ### Section 8 — Footer
 
 - Wordmark
 - One line: *CHARM™ Band — continuous human activity recognition for facilities management. Built for field teams worldwide.*
-- Contact email (placeholder: hello@charm.band)
+- No public contact email until the mailbox exists
 - Year, ™ notice
 - Placeholder links: Privacy, Terms
 
@@ -229,11 +229,11 @@ If unsure, default to abstract sensor-data visualisations — they're on-brand a
 
 ## 6. Competitor positioning notes for the copy
 
-**ISS / Sodexo workforce apps.** Don't name them, but the "smartphone app problem" copy is aimed at them. Their solution is the dominant "modern" alternative; CHARM positions as the post-app generation. Tone: respectful but clearly different generation of thinking.
+**ISS / Sodexo workforce apps.** Don't name them, but the "smartphone app problem" copy is aimed at them. Their solution is the dominant "modern" alternative; CHARM™ positions as the post-app generation. Tone: respectful but clearly different generation of thinking.
 
 **QR / RFID check-in systems.** The "QR code problem" copy is aimed at FM tech vendors that have shipped QR-based attendance products. The detached-code failure mode is well known among contractors who've actually tried these systems — name it concretely.
 
-**Hand-hygiene monitoring badges (BioVigil, SwipeSense).** Not direct competitors but the closest analogues in healthcare. Don't reference them on the site. Position CHARM subtly as broader: continuous, whole-shift, multi-activity — not single-purpose.
+**Hand-hygiene monitoring badges (BioVigil, SwipeSense).** Not direct competitors but the closest analogues in healthcare. Don't reference them on the site. Position CHARM™ subtly as broader: continuous, whole-shift, multi-activity — not single-purpose.
 
 ---
 

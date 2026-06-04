@@ -41,17 +41,6 @@ if (form && formNote) {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    const data = new FormData(form);
-    const subject = "CHARM Band pilot interest";
-    const body = Array.from(data.entries())
-      .filter(([, value]) => String(value).trim())
-      .map(([key, value]) => `${key}: ${value}`)
-      .join("\n");
-
-    window.location.href = `mailto:hello@charm.band?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(body)}`;
-
-    formNote.textContent = "Your email app should open with the pilot request details filled in.";
+    formNote.textContent = "Submissions will open here before launch.";
   });
 }
