@@ -186,10 +186,10 @@ Closing line:
 
 ### Section 7 — Final CTA
 
-**Section headline:** *Interested in joining us?*
+**Section headline:** *See if CHARM™ fits your operation.*
 
 **Body:**
-> CHARM™ Band is in active development. If this kind of evidence would help your operation, leave your details and we'll be in touch.
+> Tell us a little about your operation. We'll follow up if there is a good fit for an early conversation.
 
 **Form fields:** Name. Company. Role. Email. *(Optional)* What kind of operation you run.
 
