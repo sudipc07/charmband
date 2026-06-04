@@ -186,10 +186,10 @@ Closing line:
 
 ### Section 7 — Final CTA
 
-**Section headline:** *See if CHARM™ fits your operation.*
+**Section headline:** *Want CHARM™ for your operation?*
 
 **Body:**
-> Tell us a little about your operation. We'll follow up if there is a good fit for an early conversation.
+> Leave your details. We'll get in touch.
 
 **Form fields:** Name. Company. Role. Email. *(Optional)* What kind of operation you run.
 
