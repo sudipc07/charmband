@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 150" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 160" role="img" aria-labelledby="title desc">
   <title id="title">CHARM™ Band logo</title>
-  <desc id="desc">A geometric open C mark enclosing CHARM with two blue band rails and Band beneath.</desc>
+  <desc id="desc">A geometric open C connects two blue band rails around CHARM, with a wide Band wordmark beneath.</desc>
   <defs>
     <style>
       .rail{stroke:#0877d8;stroke-width:7;stroke-linecap:round}
       .mark{fill:none;stroke:#ffffff;stroke-width:8;stroke-linecap:round}
       .word{fill:#ffffff;font-family:Inter,Arial,sans-serif;font-size:44px;font-weight:760;letter-spacing:5px}
       .tm{fill:#ffffff;font-family:Inter,Arial,sans-serif;font-size:13px;font-weight:760}
-      .band{fill:#ffffff;font-family:Inter,Arial,sans-serif;font-size:34px;font-weight:540;letter-spacing:14px}
+      .band{fill:#ffffff;font-family:Inter,Arial,sans-serif;font-size:34px;font-weight:560}
     </style>
   </defs>
-  <path class="mark" d="M80 24C38 25 15 52 15 78s23 53 65 54" />
-  <path class="rail" d="M79 24H255" />
-  <path class="rail" d="M79 106H255" />
-  <text class="word" x="103" y="83">CHARM</text>
-  <text class="tm" x="263" y="45">™</text>
-  <text class="band" x="70" y="139">BAND</text>
+  <path class="mark" d="M82 28C40 28 16 52 16 76s24 48 66 48" />
+  <path class="rail" d="M82 28H296" />
+  <path class="rail" d="M82 124H296" />
+  <text class="word" x="105" y="88">CHARM</text>
+  <text class="tm" x="286" y="50">™</text>
+  <text class="band" x="50" y="153" textLength="250" lengthAdjust="spacing">BAND</text>
 </svg>
