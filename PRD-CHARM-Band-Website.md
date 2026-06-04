@@ -18,16 +18,16 @@ A real-feeling marketing site for CHARM Band, ahead of product launch. The site 
 
 **The category.** B2B2B infrastructure for facilities management. CHARM is not an FM management app; it's the evidence layer underneath whatever FM management software a company already uses or builds. The analogy is Twilio: don't own the customer-facing app, own the hard sensor + ML layer everyone has to integrate with.
 
-**The differentiator.** Existing solutions — smartphone apps, QR check-ins, manual supervisor logs — all depend on humans to do something correctly: carry a phone, scan a code on time, log honestly. They all break in the field, especially in India, where the worker reality doesn't match the solution's assumptions. CHARM doesn't require the worker to do anything beyond wear the band.
+**The differentiator.** Existing solutions — smartphone apps, QR check-ins, manual supervisor logs — all depend on humans to do something correctly: have or carry a phone, start and stop a session on time, scan a code, log honestly. They all break in the field, where worker reality often doesn't match the solution's assumptions. CHARM doesn't require the worker to do anything beyond wear the band.
 
-**The starting market.** Tier 2 facilities management contractors in India, serving large corporate clients. These companies are squeezed between Tier 1 brands and price-cutting smaller players; CHARM gives them a credibility edge against Tier 1 sales pitches without the Tier 1 price tag.
+**The starting market.** Tier 2 facilities management contractors serving large corporate clients. These companies are squeezed between Tier 1 brands and price-cutting smaller players; CHARM gives them a credibility edge against Tier 1 sales pitches without the Tier 1 price tag.
 
 **Adjacent markets explicitly named on the site.** Hotels (in-house housekeeping). Hospitals (infection control, regulatory compliance, defensible audit trails for hospital-acquired infections and liability cases).
 
 **Why now.**
 - Wearable sensor hardware is cheap and reliable
 - On-device machine learning has matured for low-power activity recognition
-- The Indian FM market is consolidating; differentiation matters
+- The FM market is consolidating; differentiation matters
 - Hospital infection control is a global crisis that current monitoring tools don't solve
 
 ---
@@ -36,7 +36,7 @@ A real-feeling marketing site for CHARM Band, ahead of product launch. The site 
 
 The site is read by four distinct audiences. Most of the copy should land for the first; the rest should feel addressed without being centred.
 
-### Audience 1: Tier 2 FM contractor founder or leader (India) — PRIMARY
+### Audience 1: Tier 2 FM contractor founder or leader — PRIMARY
 
 - Family-owned or founder-led business with 500–5,000 workers
 - Competes against ISS, Sodexo, UDS, BVG, Compass for mid-tier corporate contracts
@@ -73,7 +73,7 @@ The site is read by four distinct audiences. Most of the copy should land for th
 
 - Professional, substance-first, present-tense
 - Confident without being cocky
-- Indian B2B sensibility — restrained, clear, credible. Closer to Tata or Mahindra in feel than to a Silicon Valley startup.
+- Global B2B sensibility — restrained, clear, credible. More infrastructure partner than Silicon Valley hype.
 - Worker-respectful. CHARM serves worker dignity (accurate pay, evidence against unfair dismissal) as much as employer interests. The copy should reflect that.
 
 ### Words and phrases to use
@@ -129,7 +129,7 @@ The site is read by four distinct audiences. Most of the copy should land for th
 Three cards or stacked sections, one paragraph each:
 
 **Card 1 — The smartphone app problem.**
-> Most janitorial workers in India don't carry smartphones. Even when they do, they don't remember to start and stop tracking through a 9-hour shift. Workforce-management apps routinely miss 30-40% of sessions — and that's in white-collar environments with HR enforcement.
+> Facilities workers may not have or carry smartphones. Even when they do, they usually forget to start and stop sessions through a long shift. Workforce-management apps routinely miss sessions because they depend on human behaviour.
 
 **Card 2 — The QR code problem.**
 > Every QR-based check-in has the same failure mode: someone prints the QR and tapes it to the supervisor's desk. A dozen workers tap once and walk off. The dashboard shows full coverage; the contractor pays for work that never happened; the client gets a fake report.
@@ -178,7 +178,7 @@ Three-step visual flow:
 Body — three short paragraphs or cards:
 
 - Decades of systems and software engineering experience at the leadership level
-- Decades of operational expertise inside the Indian facilities management industry
+- Deep operational expertise inside the facilities management industry
 - Decades of embedded hardware development across consumer and industrial product categories
 
 Closing line:
@@ -198,7 +198,7 @@ Closing line:
 ### Section 8 — Footer
 
 - Wordmark
-- One line: *CHARM™ Band — continuous human activity recognition for facilities management. Built in Australia and India.*
+- One line: *CHARM™ Band — continuous human activity recognition for facilities management. Built for field teams worldwide.*
 - Contact email (placeholder: hello@charm.band)
 - Year, ™ notice
 - Placeholder links: Privacy, Terms
@@ -231,7 +231,7 @@ If unsure, default to abstract sensor-data visualisations — they're on-brand a
 
 **ISS / Sodexo workforce apps.** Don't name them, but the "smartphone app problem" copy is aimed at them. Their solution is the dominant "modern" alternative; CHARM positions as the post-app generation. Tone: respectful but clearly different generation of thinking.
 
-**QR / RFID check-in systems.** The "QR code problem" copy is aimed at every Indian FM tech vendor that's shipped a QR-based attendance product. The reprint-the-QR failure mode is well known among contractors who've actually tried these systems — name it concretely.
+**QR / RFID check-in systems.** The "QR code problem" copy is aimed at FM tech vendors that have shipped QR-based attendance products. The detached-code failure mode is well known among contractors who've actually tried these systems — name it concretely.
 
 **Hand-hygiene monitoring badges (BioVigil, SwipeSense).** Not direct competitors but the closest analogues in healthcare. Don't reference them on the site. Position CHARM subtly as broader: continuous, whole-shift, multi-activity — not single-purpose.
 

@@ -328,7 +328,7 @@ section[id] {
 }
 
 .problem-card {
-  min-height: 360px;
+  min-height: 250px;
   padding: 28px;
 }
 
@@ -342,7 +342,7 @@ section[id] {
 
 .card-index {
   display: block;
-  margin-bottom: 72px;
+  margin-bottom: 44px;
   color: var(--copper);
   font-size: 0.82rem;
   font-weight: 780;
@@ -446,7 +446,7 @@ section[id] {
   width: 44px;
   height: 44px;
   place-items: center;
-  margin-bottom: 56px;
+  margin-bottom: 38px;
   border: 1px solid var(--line);
   border-radius: 50%;
   color: var(--ink);
@@ -472,7 +472,10 @@ section[id] {
 
 .step {
   position: relative;
-  min-height: 270px;
+  display: grid;
+  min-height: 210px;
+  align-content: space-between;
+  gap: 34px;
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 28px;
@@ -498,7 +501,7 @@ section[id] {
   width: 48px;
   height: 48px;
   place-items: center;
-  margin-bottom: 78px;
+  margin-bottom: 0;
   border-radius: 50%;
   color: var(--white);
   background: var(--ink);
@@ -721,7 +724,7 @@ section[id] {
   .card-index,
   .icon-mark,
   .step-number {
-    margin-bottom: 34px;
+    margin-bottom: 0;
   }
 }
 
