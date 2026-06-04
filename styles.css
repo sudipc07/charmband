@@ -407,7 +407,7 @@ section[id] {
   display: grid;
   height: 140px;
   grid-template-columns: repeat(8, 1fr);
-  gap: 12px;
+  gap: clamp(5px, 1.8vw, 12px);
   align-items: end;
   padding-top: 24px;
   border-top: 1px solid rgba(255, 253, 250, 0.12);
@@ -424,10 +424,11 @@ section[id] {
 .activity-row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 12px;
+  gap: clamp(4px, 1.6vw, 12px);
   padding-top: 18px;
   color: rgba(255, 253, 250, 0.66);
-  font-size: 0.86rem;
+  font-size: clamp(0.62rem, 2.4vw, 0.86rem);
+  white-space: nowrap;
 }
 
 .audience-section {
@@ -746,10 +747,6 @@ section[id] {
   .proof-strip,
   .pilot-form {
     grid-template-columns: 1fr;
-  }
-
-  .activity-row {
-    grid-template-columns: repeat(3, 1fr);
   }
 
   .pilot-form .full {
