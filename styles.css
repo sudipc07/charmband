@@ -135,7 +135,7 @@ img {
   z-index: 0;
   background:
     linear-gradient(90deg, rgba(9, 35, 38, 0.18), rgba(9, 35, 38, 0.02)),
-    url("assets/charm-hero-background.png") center center / cover no-repeat;
+    url("assets/charm-hero-sensor-band.png") center center / cover no-repeat;
 }
 
 .hero-product {
