@@ -18,8 +18,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://charm.band/" />
     <meta property="og:image" content="https://charm.band/assets/charm-hero-sensor-band.png" />
-    <link rel="preload" as="image" href="assets/charm-hero-sensor-band.png?v=shift-trace-1" />
-    <link rel="stylesheet" href="styles.css?v=shift-trace-1" />
+    <link rel="preload" as="image" href="assets/charm-hero-sensor-band.png?v=shift-trace-time-1" />
+    <link rel="stylesheet" href="styles.css?v=shift-trace-time-1" />
   </head>
   <body>
     <header class="site-header" data-site-header>
@@ -128,37 +128,48 @@
             <span>Shift narrative</span>
             <strong>Ready for SLA review</strong>
           </div>
-          <div class="shift-trace" aria-label="Example shift trace from pair at 08:02 through varied activity durations to return at 11:36.">
+          <div class="shift-trace" aria-label="Example eight-hour shift trace from pair at 08:00 through varied activity durations to return at 16:00.">
             <div class="trace-pin trace-pin-start">
               <span>Pair</span>
-              <strong>08:02</strong>
             </div>
             <div class="trace-track" aria-hidden="true">
-              <span class="trace-segment trace-transit" style="--span: 13; --intensity: 42%">
+              <div class="trace-markers">
+                <span style="--at: 0%">08:00</span>
+                <span style="--at: 25%">10:00</span>
+                <span style="--at: 50%">12:00</span>
+                <span style="--at: 75%">14:00</span>
+                <span style="--at: 100%">16:00</span>
+              </div>
+              <span class="trace-segment trace-transit" style="--span: 45; --intensity: 42%">
                 <em>Transit</em>
               </span>
-              <span class="trace-segment trace-mop" style="--span: 22; --intensity: 68%">
+              <span class="trace-segment trace-mop" style="--span: 95; --intensity: 68%">
                 <em>Mop</em>
               </span>
-              <span class="trace-segment trace-idle" style="--span: 8; --intensity: 24%">
+              <span class="trace-segment trace-idle" style="--span: 25; --intensity: 24%">
                 <em>Idle</em>
               </span>
-              <span class="trace-segment trace-scrub" style="--span: 18; --intensity: 86%">
+              <span class="trace-segment trace-scrub" style="--span: 80; --intensity: 86%">
                 <em>Scrub</em>
               </span>
-              <span class="trace-segment trace-transit" style="--span: 10; --intensity: 45%">
+              <span class="trace-segment trace-transit" style="--span: 40; --intensity: 45%">
                 <em>Transit</em>
               </span>
-              <span class="trace-segment trace-vacuum" style="--span: 19; --intensity: 72%">
+              <span class="trace-segment trace-vacuum" style="--span: 110; --intensity: 72%">
                 <em>Vacuum</em>
+              </span>
+              <span class="trace-segment trace-idle" style="--span: 20; --intensity: 22%">
+                <em>Idle</em>
+              </span>
+              <span class="trace-segment trace-scrub" style="--span: 65; --intensity: 82%">
+                <em>Scrub</em>
               </span>
             </div>
             <div class="trace-pin trace-pin-end">
               <span>Return</span>
-              <strong>11:36</strong>
             </div>
           </div>
-          <p class="trace-note">Width shows duration. Height shows activity intensity.</p>
+          <p class="trace-note">Eight-hour shift shown. Width shows duration. Height shows activity intensity.</p>
         </div>
       </section>
 

@@ -135,7 +135,7 @@ img {
   z-index: 0;
   background:
     linear-gradient(90deg, rgba(9, 35, 38, 0.18), rgba(9, 35, 38, 0.02)),
-    url("assets/charm-hero-sensor-band.png?v=shift-trace-1") center center / cover no-repeat;
+    url("assets/charm-hero-sensor-band.png?v=shift-trace-time-1") center center / cover no-repeat;
 }
 
 .hero-scrim {
@@ -463,15 +463,62 @@ section[id] {
 }
 
 .trace-track {
+  position: relative;
   display: flex;
   min-width: 0;
   height: 132px;
   gap: 4px;
   align-items: end;
-  padding: 0 0 23px;
+  padding: 24px 0 23px;
   background:
     linear-gradient(90deg, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.1)) left calc(100% - 23px) / 100% 1px no-repeat,
     linear-gradient(180deg, rgba(255, 253, 250, 0.04), rgba(255, 253, 250, 0));
+}
+
+.trace-markers {
+  position: absolute;
+  inset: 0 0 23px;
+  pointer-events: none;
+}
+
+.trace-markers span {
+  position: absolute;
+  top: 0;
+  left: var(--at);
+  display: grid;
+  min-width: 38px;
+  transform: translateX(-50%);
+  color: rgba(255, 253, 250, 0.52);
+  font-size: 0.68rem;
+  font-weight: 680;
+  line-height: 1;
+  text-align: center;
+}
+
+.trace-markers span:first-child {
+  transform: none;
+  text-align: left;
+}
+
+.trace-markers span:last-child {
+  transform: translateX(-100%);
+  text-align: right;
+}
+
+.trace-markers span::after {
+  content: "";
+  width: 1px;
+  height: 80px;
+  margin: 7px auto 0;
+  background: linear-gradient(180deg, rgba(255, 253, 250, 0.16), rgba(255, 253, 250, 0));
+}
+
+.trace-markers span:first-child::after {
+  margin-left: 0;
+}
+
+.trace-markers span:last-child::after {
+  margin-right: 0;
 }
 
 .trace-segment {
@@ -870,6 +917,24 @@ section[id] {
     padding-bottom: 20px;
   }
 
+  .trace-markers {
+    bottom: 20px;
+  }
+
+  .trace-markers span {
+    min-width: 30px;
+    font-size: 0.58rem;
+  }
+
+  .trace-markers span::after {
+    height: 64px;
+  }
+
+  .trace-markers span:nth-child(2),
+  .trace-markers span:nth-child(4) {
+    opacity: 0;
+  }
+
   .trace-segment {
     border-radius: 5px 5px 2px 2px;
   }
@@ -882,7 +947,7 @@ section[id] {
   }
 
   .trace-idle em,
-  .trace-track .trace-transit:first-child em {
+  .trace-transit em {
     opacity: 0;
   }
 
