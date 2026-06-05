@@ -135,7 +135,7 @@ img {
   z-index: 0;
   background:
     linear-gradient(90deg, rgba(9, 35, 38, 0.18), rgba(9, 35, 38, 0.02)),
-    url("assets/charm-hero-sensor-band.png?v=hero-readability-1") center center / cover no-repeat;
+    url("assets/charm-hero-sensor-band.png?v=shift-trace-1") center center / cover no-repeat;
 }
 
 .hero-scrim {
@@ -413,32 +413,116 @@ section[id] {
   color: var(--gold);
 }
 
-.timeline {
+.shift-trace {
   display: grid;
-  height: 140px;
-  grid-template-columns: repeat(8, 1fr);
-  gap: clamp(5px, 1.8vw, 12px);
+  grid-template-columns: 70px minmax(0, 1fr) 78px;
+  gap: 12px;
   align-items: end;
-  padding-top: 24px;
+  padding: 26px 0 18px;
   border-top: 1px solid rgba(255, 253, 250, 0.12);
   border-bottom: 1px solid rgba(255, 253, 250, 0.12);
 }
 
-.timeline span {
-  display: block;
-  height: var(--level);
-  border-radius: 8px 8px 0 0;
-  background: linear-gradient(180deg, var(--gold), rgba(200, 155, 82, 0.18));
+.trace-pin {
+  display: grid;
+  gap: 6px;
+  align-self: stretch;
+  min-height: 132px;
+  align-content: end;
+  color: rgba(255, 253, 250, 0.72);
+  font-size: 0.78rem;
+  line-height: 1;
+  white-space: nowrap;
 }
 
-.activity-row {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: clamp(4px, 1.6vw, 12px);
-  padding-top: 18px;
-  color: rgba(255, 253, 250, 0.66);
-  font-size: clamp(0.62rem, 2.4vw, 0.86rem);
+.trace-pin::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--gold);
+  border-radius: 999px;
+  background: var(--deep);
+  box-shadow: 0 0 0 5px rgba(200, 155, 82, 0.12);
+}
+
+.trace-pin-end {
+  justify-items: end;
+  text-align: right;
+}
+
+.trace-pin span {
+  color: var(--white);
+  font-weight: 720;
+}
+
+.trace-pin strong {
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 740;
+}
+
+.trace-track {
+  display: flex;
+  min-width: 0;
+  height: 132px;
+  gap: 4px;
+  align-items: end;
+  padding: 0 0 23px;
+  background:
+    linear-gradient(90deg, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.1)) left calc(100% - 23px) / 100% 1px no-repeat,
+    linear-gradient(180deg, rgba(255, 253, 250, 0.04), rgba(255, 253, 250, 0));
+}
+
+.trace-segment {
+  position: relative;
+  flex: var(--span) 1 0;
+  min-width: 0;
+  height: var(--intensity);
+  border-radius: 7px 7px 3px 3px;
+  background: linear-gradient(180deg, rgba(226, 176, 103, 0.98), rgba(200, 155, 82, 0.2));
+  box-shadow: inset 0 1px 0 rgba(255, 253, 250, 0.2);
+}
+
+.trace-segment::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, rgba(255, 253, 250, 0.16), rgba(255, 253, 250, 0));
+}
+
+.trace-segment em {
+  position: absolute;
+  right: 4px;
+  bottom: -22px;
+  left: 4px;
+  overflow: hidden;
+  color: rgba(255, 253, 250, 0.74);
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 680;
+  line-height: 1;
+  text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.trace-idle {
+  background: linear-gradient(180deg, rgba(255, 253, 250, 0.52), rgba(255, 253, 250, 0.12));
+}
+
+.trace-scrub {
+  background: linear-gradient(180deg, rgba(52, 188, 237, 0.92), rgba(52, 188, 237, 0.2));
+}
+
+.trace-vacuum {
+  background: linear-gradient(180deg, rgba(226, 176, 103, 0.96), rgba(52, 188, 237, 0.16));
+}
+
+.trace-note {
+  margin: 16px 0 0;
+  color: rgba(255, 253, 250, 0.62);
+  font-size: 0.84rem;
 }
 
 .audience-section {
@@ -753,6 +837,57 @@ section[id] {
 
   .hero-copy {
     max-width: 32ch;
+  }
+
+  .signal-panel {
+    width: min(calc(100% - 24px), var(--max));
+    padding: 18px 14px;
+  }
+
+  .signal-header {
+    margin-bottom: 18px;
+    font-size: 0.78rem;
+  }
+
+  .shift-trace {
+    grid-template-columns: 48px minmax(0, 1fr) 56px;
+    gap: 8px;
+    padding-top: 20px;
+  }
+
+  .trace-pin {
+    min-height: 108px;
+    font-size: 0.68rem;
+  }
+
+  .trace-pin strong {
+    font-size: 0.64rem;
+  }
+
+  .trace-track {
+    height: 108px;
+    gap: 3px;
+    padding-bottom: 20px;
+  }
+
+  .trace-segment {
+    border-radius: 5px 5px 2px 2px;
+  }
+
+  .trace-segment em {
+    right: 3px;
+    bottom: -19px;
+    left: 3px;
+    font-size: 0.62rem;
+  }
+
+  .trace-idle em,
+  .trace-track .trace-transit:first-child em {
+    opacity: 0;
+  }
+
+  .trace-note {
+    font-size: 0.76rem;
   }
 
   .proof-strip,
