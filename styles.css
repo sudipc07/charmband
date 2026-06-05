@@ -135,7 +135,19 @@ img {
   z-index: 0;
   background:
     linear-gradient(90deg, rgba(9, 35, 38, 0.18), rgba(9, 35, 38, 0.02)),
-    url("assets/charm-hero-sensor-band.png") center center / cover no-repeat;
+    url("assets/charm-hero-sensor-band.png?v=updated-bg-device-1") center center / cover no-repeat;
+}
+
+.hero-product {
+  position: absolute;
+  z-index: 1;
+  top: clamp(120px, 18vh, 174px);
+  right: clamp(52px, 9vw, 168px);
+  width: min(17vw, 260px);
+  max-height: 78svh;
+  object-fit: contain;
+  filter: drop-shadow(0 34px 40px rgba(0, 0, 0, 0.36));
+  pointer-events: none;
 }
 
 .hero-scrim {
@@ -735,6 +747,14 @@ section[id] {
 
   .hero-content {
     padding-top: 118px;
+  }
+
+  .hero-product {
+    top: 42vh;
+    right: -38px;
+    width: min(42vw, 190px);
+    max-height: 52svh;
+    opacity: 0.58;
   }
 
   .hero-scrim {
