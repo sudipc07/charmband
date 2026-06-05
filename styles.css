@@ -155,8 +155,8 @@ img {
   inset: 0;
   z-index: 2;
   background:
-    linear-gradient(90deg, rgba(9, 35, 38, 0.97) 0%, rgba(9, 35, 38, 0.75) 38%, rgba(9, 35, 38, 0.1) 76%),
-    linear-gradient(180deg, rgba(9, 35, 38, 0.28), rgba(9, 35, 38, 0.08) 62%, var(--paper) 100%);
+    linear-gradient(90deg, rgba(9, 35, 38, 0.9) 0%, rgba(9, 35, 38, 0.56) 42%, rgba(9, 35, 38, 0.06) 78%),
+    linear-gradient(180deg, rgba(9, 35, 38, 0.18), rgba(9, 35, 38, 0.02) 62%, var(--paper) 100%);
 }
 
 .hero-content {
@@ -694,8 +694,8 @@ section[id] {
 
   .hero-scrim {
     background:
-      linear-gradient(90deg, rgba(9, 35, 38, 0.98) 0%, rgba(9, 35, 38, 0.92) 60%, rgba(9, 35, 38, 0.66) 100%),
-      linear-gradient(180deg, rgba(9, 35, 38, 0.3), rgba(9, 35, 38, 0.24) 66%, var(--paper) 100%);
+      linear-gradient(90deg, rgba(9, 35, 38, 0.92) 0%, rgba(9, 35, 38, 0.76) 62%, rgba(9, 35, 38, 0.34) 100%),
+      linear-gradient(180deg, rgba(9, 35, 38, 0.2), rgba(9, 35, 38, 0.1) 66%, var(--paper) 100%);
   }
 
   .proof-strip,
@@ -758,8 +758,8 @@ section[id] {
 
   .hero-scrim {
     background:
-      linear-gradient(90deg, rgba(9, 35, 38, 0.98), rgba(9, 35, 38, 0.82)),
-      linear-gradient(180deg, rgba(9, 35, 38, 0.24), rgba(9, 35, 38, 0.08) 66%, var(--paper) 100%);
+      linear-gradient(90deg, rgba(9, 35, 38, 0.9), rgba(9, 35, 38, 0.62)),
+      linear-gradient(180deg, rgba(9, 35, 38, 0.16), rgba(9, 35, 38, 0.02) 66%, var(--paper) 100%);
   }
 
   .hero-copy {
