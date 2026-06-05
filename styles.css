@@ -134,9 +134,8 @@ img {
   inset: 0;
   z-index: 0;
   background:
-    radial-gradient(circle at 78% 34%, rgba(42, 153, 178, 0.3), transparent 30%),
-    radial-gradient(circle at 88% 78%, rgba(200, 155, 82, 0.18), transparent 28%),
-    linear-gradient(115deg, #071f22 0%, #0b2d31 54%, #d6d0c4 100%);
+    linear-gradient(90deg, rgba(9, 35, 38, 0.18), rgba(9, 35, 38, 0.02)),
+    url("assets/charm-hero-sensor-band.png") center center / cover no-repeat;
 }
 
 .hero-product {
