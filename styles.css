@@ -238,6 +238,10 @@ h3 {
   inset: 0;
 }
 
+.home-hero-device {
+  display: none;
+}
+
 .home-hero-media {
   z-index: -2;
   background: url("assets/charm-hero-sensor-band.png?v=family-1") center center / cover no-repeat;
@@ -988,7 +992,7 @@ h3 {
   }
 
   .home-hero {
-    min-height: 84svh;
+    min-height: 96svh;
   }
 
   .home-hero-content {
@@ -1000,10 +1004,32 @@ h3 {
     font-size: 1rem;
   }
 
+  .home-hero-content > p:not(.eyebrow) {
+    max-width: calc(100% - 110px);
+  }
+
   .home-hero-scrim {
     background:
       linear-gradient(90deg, rgba(5, 25, 27, 0.9), rgba(5, 25, 27, 0.54)),
       linear-gradient(180deg, rgba(5, 25, 27, 0.04), rgba(5, 25, 27, 0.66));
+  }
+
+  .home-hero-media {
+    background-image: url("assets/charm-hero-background.png?v=family-2");
+    background-position: 68% center;
+  }
+
+  .home-hero-device {
+    position: absolute;
+    z-index: -1;
+    right: 5%;
+    bottom: 3%;
+    display: block;
+    width: auto;
+    height: 36%;
+    object-fit: contain;
+    filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.28));
+    opacity: 0.9;
   }
 
   .product-family {
