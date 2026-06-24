@@ -383,9 +383,10 @@ h3 {
 }
 
 .product-tile-beltpack img {
-  right: -4%;
-  width: 106%;
-  height: 68%;
+  right: 8%;
+  bottom: 0;
+  width: 62%;
+  height: 76%;
 }
 
 .product-tile:hover img,
@@ -594,9 +595,9 @@ h3 {
 }
 
 .product-hero-device-beltpack {
-  right: -3vw;
-  width: 62%;
-  height: 72%;
+  right: 8vw;
+  width: 36%;
+  height: 78%;
 }
 
 .family-strip {
@@ -961,6 +962,11 @@ h3 {
     right: -8vw;
     width: 60%;
   }
+
+  .product-hero-device-beltpack {
+    right: 6vw;
+    width: 38%;
+  }
 }
 
 @media (max-width: 760px) {
@@ -1119,9 +1125,9 @@ h3 {
   }
 
   .product-hero-device-beltpack {
-    right: 0;
-    width: 100%;
-    height: 40%;
+    right: 15%;
+    width: 70%;
+    height: 42%;
   }
 
   .family-strip {
