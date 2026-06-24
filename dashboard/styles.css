@@ -46,8 +46,8 @@ a { color: inherit; text-decoration: none; }
 .demo-strip {
   height: var(--demo-strip-h); position: sticky; top: 0; z-index: 100;
   display: flex; align-items: center; justify-content: space-between; gap: 20px;
-  padding: 0 24px; background: var(--gold); color: var(--navy);
-  border-bottom: 1px solid rgba(9,35,38,.2);
+  padding: 0 24px; background: #fff3cf; color: var(--navy);
+  border-bottom: 1px solid #ead9a3;
 }
 .demo-strip-back { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; }
 .demo-strip-back:hover { text-decoration: underline; text-underline-offset: 3px; }
