@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>CHARM™ Band — Operations Dashboard Demo</title>
+<link rel="stylesheet" href="styles.css?v=charm-1">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><img class="logo" src="../assets/charm-logo.png" alt="CHARM™ Band"></div>
+    <nav class="nav">
+      <a class="active" href="index.html"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg> Overview</a>
+      <a href="team.html"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c0-3 2.5-5 5.5-5s5.5 2 5.5 5"/><path d="M16 5.5a3 3 0 0 1 0 5.6"/><path d="M17.5 14c2.2.4 3.5 2.3 3.5 5"/></svg> Team</a>
+      <a href="coverage.html"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.6-6.5-10A6.5 6.5 0 0 1 18.5 11c0 4.4-6.5 10-6.5 10z"/><circle cx="12" cy="11" r="2.3"/></svg> Coverage</a>
+      <a href="exceptions.html"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg> Reports</a>
+      <a href="/"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10.5V20h13v-9.5"/></svg> Site</a>
+    </nav>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="crumbs"><b>Metropolitan Plaza</b><br>Central District · Sector 4</div>
+      <div class="right">
+        <div class="top-actions"><span class="demo-badge">Demo data</span><a class="site-link" href="/">Public site</a></div>
+        <div class="user" id="userMenu"><div class="who"><b>Daniel Pike</b><span>Facility Manager</span></div><div class="avatar">DP</div><div class="user-pop"><b>Daniel Pike</b><span>Facility Manager</span></div></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1 class="page-title">Building Overview</h1>
+      <p class="page-sub">Demo shift · 7 Jun 2026 · Morning shift</p>
+
+      <div class="narrative" style="margin-bottom:24px">
+        <div class="tag">Demo executive summary</div>
+        Today's coverage reached <b>92%</b>, slightly above average. Key exceptions were located in Floor 3 restrooms, which were skipped during the 11 AM roster. Team utilisation remains high at <b>84%</b>. No critical sanitation gaps detected; one biohazard alert in Restroom B was resolved within SLA.
+      </div>
+
+      <!-- KPIs -->
+      <div class="grid kpis">
+        <div class="kpi"><div class="label">Coverage</div><div class="value">92%</div><div class="delta up">▲ 2.4% vs avg</div></div>
+        <div class="kpi"><div class="label">Staff on shift</div><div class="value">14</div><div class="delta">Demo status</div></div>
+        <div class="kpi"><div class="label">Utilisation</div><div class="value">84%</div><div class="delta warn">Peak load</div></div>
+        <div class="kpi alert"><div class="label">Exceptions</div><div class="value">3</div><div class="delta" style="color:var(--error)">Needs attention</div></div>
+      </div>
+
+      <!-- Heatmap + Exceptions -->
+      <div class="grid cols-2-1 mt">
+        <div class="card pad">
+          <div class="section-title">Building Coverage Heatmap</div>
+          <div class="section-sub">Cleaning coverage by floor — this shift</div>
+
+          <div class="floorbar"><div class="row"><span>Floor 6 — Executive Wing</span><span class="pct">98% covered</span></div><div class="track"><span class="fill-ok" style="width:98%"></span></div></div>
+          <div class="floorbar"><div class="row"><span>Floor 4 — Tech Suites</span><span class="pct">91% covered</span></div><div class="track"><span class="fill-ok" style="width:91%"></span></div></div>
+          <div class="floorbar"><div class="row"><span>Floor 3 — Shared Workspaces</span><span class="pct">44% covered</span></div><div class="track"><span class="fill-bad" style="width:44%"></span></div></div>
+          <div class="floorbar"><div class="row"><span>Floor 2 — Logistics</span><span class="pct">78% covered</span></div><div class="track"><span class="fill-warn" style="width:78%"></span></div></div>
+          <div class="floorbar"><div class="row"><span>Floor 1 — Main Lobby</span><span class="pct">88% covered</span></div><div class="track"><span class="fill-ok" style="width:88%"></span></div></div>
+
+          <div class="legend">
+            <span class="k"><span class="sw" style="background:var(--success)"></span> Covered</span>
+            <span class="k"><span class="sw" style="background:var(--warning)"></span> Partial</span>
+            <span class="k"><span class="sw" style="background:var(--error)"></span> Missed</span>
+          </div>
+        </div>
+
+        <div class="card pad">
+          <div class="section-title">Priority Exceptions</div>
+          <div class="section-sub">Flagged this shift</div>
+          <div class="exc high"><span class="severity-marker" aria-hidden="true"></span><div class="body"><div class="ttl">3rd Floor Restrooms</div><div class="meta">Missed cleaning cycle · high-usage zone</div><span class="act">Suggested: dispatch team</span></div></div>
+          <div class="exc med"><span class="severity-marker" aria-hidden="true"></span><div class="body"><div class="ttl">East Stairwell</div><div class="meta">Skipped during Sector D sweep</div><span class="act">Suggested: verify completion</span></div></div>
+          <div class="exc low"><span class="severity-marker" aria-hidden="true"></span><div class="body"><div class="ttl">Lobby Refresh</div><div class="meta">Delayed due to VIP arrival protocol</div><span class="act">Suggested: review delay</span></div></div>
+          <div class="ai-insight"><div class="tag">Demo insight</div>Exception trends suggest a 12% increase in missed tasks on Floor 3 during lunchtime peaks. Consider re-allocating a relief cleaner from Sector 4.</div>
+        </div>
+      </div>
+
+      <!-- Team performance -->
+      <div class="card pad mt">
+        <div class="section-title">Team Performance</div>
+        <div class="section-sub">Demo status across the shift</div>
+        <table class="data">
+          <thead><tr><th>Worker</th><th>Assigned Zone</th><th>Current Status</th><th>Coverage</th><th>Last Action</th></tr></thead>
+          <tbody>
+            <tr onclick="location.href='team.html'" style="cursor:pointer">
+              <td><div class="who-cell"><div class="avatar">AR</div> Alex Reed</div></td>
+              <td>North Wing · F1/F2</td>
+              <td><span class="chip ok">● In progress</span></td>
+              <td><div class="who-cell"><div class="mini-track track"><span class="fill-ok" style="width:94%"></span></div> 94%</div></td>
+              <td class="muted">Lobby Sweep · 4m ago</td>
+            </tr>
+            <tr>
+              <td><div class="who-cell"><div class="avatar" style="background:#7c83a0">SC</div> Sarah Chen</div></td>
+              <td>Tech Suites · F4</td>
+              <td><span class="chip neutral">● Idle</span></td>
+              <td><div class="who-cell"><div class="mini-track track"><span class="fill-ok" style="width:88%"></span></div> 88%</div></td>
+              <td class="muted">Conference 4A Clean · 12m ago</td>
+            </tr>
+            <tr>
+              <td><div class="who-cell"><div class="avatar" style="background:#c2603a">JM</div> James Miller</div></td>
+              <td>Floor 3 · Sector A</td>
+              <td><span class="chip bad">● Exception flag</span></td>
+              <td><div class="who-cell"><div class="mini-track track"><span class="fill-bad" style="width:61%"></span></div> 61%</div></td>
+              <td class="muted">Bathroom Check · skipped</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="app.js?v=charm-1"></script>
+</body>
+</html>

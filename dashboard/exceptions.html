@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>CHARM™ Band — Reports Dashboard Demo</title>
+<link rel="stylesheet" href="styles.css?v=charm-1">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><img class="logo" src="../assets/charm-logo.png" alt="CHARM™ Band"></div>
+    <nav class="nav">
+      <a href="index.html"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg> Overview</a>
+      <a href="team.html"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c0-3 2.5-5 5.5-5s5.5 2 5.5 5"/><path d="M16 5.5a3 3 0 0 1 0 5.6"/><path d="M17.5 14c2.2.4 3.5 2.3 3.5 5"/></svg> Team</a>
+      <a href="coverage.html"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.5-5.6-6.5-10A6.5 6.5 0 0 1 18.5 11c0 4.4-6.5 10-6.5 10z"/><circle cx="12" cy="11" r="2.3"/></svg> Coverage</a>
+      <a class="active" href="exceptions.html"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg> Reports</a>
+      <a href="/"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10.5V20h13v-9.5"/></svg> Site</a>
+    </nav>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="crumbs"><b>Metropolitan Plaza</b> › Exceptions &amp; Performance</div>
+      <div class="right"><div class="top-actions"><span class="demo-badge">Demo data</span><a class="site-link" href="/">Public site</a></div><div class="user" id="userMenu"><div class="who"><b>Daniel Pike</b><span>Facility Manager</span></div><div class="avatar">DP</div><div class="user-pop"><b>Daniel Pike</b><span>Facility Manager</span></div></div></div>
+    </div>
+
+    <div class="content">
+      <h1 class="page-title">Exceptions &amp; Performance</h1>
+      <p class="page-sub">Flagged items across today's shift</p>
+
+      <div class="grid kpis">
+        <div class="kpi"><div class="label">Total exceptions</div><div class="value">12</div></div>
+        <div class="kpi"><div class="label">Team utilisation</div><div class="value">84%</div></div>
+        <div class="kpi"><div class="label">Active floor coverage</div><div class="value">92%</div><div class="delta up">Stable</div></div>
+        <div class="kpi alert"><div class="label">Critical misses</div><div class="value">3</div><div class="delta" style="color:var(--error)">Floor 3 &amp; 1</div></div>
+      </div>
+
+      <div class="card pad mt">
+        <div style="display:flex;justify-content:space-between;align-items:center"><div class="section-title" style="margin:0">Priority Exceptions</div></div>
+        <div class="filters">
+          <select class="filter-select" id="fFloor">
+            <option value="all">All floors</option>
+            <option value="F1">Floor 1</option>
+            <option value="F2">Floor 2</option>
+            <option value="F4">Floor 4</option>
+          </select>
+          <select class="filter-select" id="fWorker">
+            <option value="all">All workers</option>
+            <option value="Marcus J.">Marcus J.</option>
+            <option value="Bina K.">Bina K.</option>
+            <option value="Unassigned">Unassigned</option>
+          </select>
+          <select class="filter-select" id="fSev">
+            <option value="all">All severities</option>
+            <option value="high">High</option>
+            <option value="med">Medium</option>
+            <option value="low">Low</option>
+          </select>
+        </div>
+        <div id="excList">
+          <div class="exc high" data-floor="F2" data-worker="Marcus J." data-sev="high"><span class="severity-marker" aria-hidden="true"></span><div class="body"><div class="ttl">Unplanned idle time — 46m · Marcus J.</div><div class="meta">Floor 2B · detected 13:08 · status pending</div></div><span class="chip bad">High</span></div>
+          <div class="exc med" data-floor="F4" data-worker="Unassigned" data-sev="med"><span class="severity-marker" aria-hidden="true"></span><div class="body"><div class="ttl">Missed Area: Floor 4 Service Hall</div><div class="meta">Scheduled 09:00 AM · status pending</div></div><span class="chip warn">Medium</span></div>
+          <div class="exc low" data-floor="F1" data-worker="Bina K." data-sev="low"><span class="severity-marker" aria-hidden="true"></span><div class="body"><div class="ttl">Rushed Route: Lobby West</div><div class="meta">Worker Bina K. · duration 12m (Est. 25m)</div></div><span class="chip neutral">Low</span></div>
+          <div class="exc med" data-floor="F2" data-worker="Unassigned" data-sev="med"><span class="severity-marker" aria-hidden="true"></span><div class="body"><div class="ttl">Biohazard Alert: Floor 2 Restroom B</div><div class="meta">Sensor triggered · priority resolution required · resolved within SLA</div></div><span class="chip warn">Medium</span></div>
+          <p id="excEmpty" class="muted" style="display:none;padding:8px 2px">No exceptions match these filters.</p>
+        </div>
+        <span class="act" style="color:var(--muted);font-weight:600;font-size:13px">Four demo records shown</span>
+      </div>
+
+      <div class="grid cols-1-1 mt">
+        <div class="card pad">
+          <div class="section-title">Service Continuity</div>
+          <div class="section-sub">Tasks completed per hour, this shift</div>
+          <canvas id="continuity" height="150"></canvas>
+        </div>
+        <div class="card pad">
+          <div class="section-title">Exceptions by Floor</div>
+          <div class="section-sub">Where attention is needed</div>
+          <canvas id="byfloor" height="150"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Priority Exceptions filtering
+(function () {
+  const fFloor = document.getElementById('fFloor');
+  const fWorker = document.getElementById('fWorker');
+  const fSev = document.getElementById('fSev');
+  const rows = [...document.querySelectorAll('#excList .exc')];
+  const empty = document.getElementById('excEmpty');
+  function apply() {
+    let shown = 0;
+    rows.forEach((el) => {
+      const ok =
+        (fFloor.value === 'all' || el.dataset.floor === fFloor.value) &&
+        (fWorker.value === 'all' || el.dataset.worker === fWorker.value) &&
+        (fSev.value === 'all' || el.dataset.sev === fSev.value);
+      el.style.display = ok ? '' : 'none';
+      if (ok) shown++;
+    });
+    empty.style.display = shown ? 'none' : 'block';
+  }
+  [fFloor, fWorker, fSev].forEach((s) => s.addEventListener('change', apply));
+})();
+
+const grid = { color: '#eef2f7' };
+const tick = { color: '#76777d', font: { family: 'Inter' } };
+new Chart(document.getElementById('continuity'), {
+  type: 'bar',
+  data: { labels: ['08:00','09:00','10:00','11:00','12:00','13:00','14:00'],
+    datasets: [{ data: [6,9,11,7,4,10,8], backgroundColor: (c)=> c.dataIndex===4 ? '#ef4444' : '#28a9e0', borderRadius: 4 }] },
+  options: { plugins:{legend:{display:false}}, scales:{ x:{grid:{display:false},ticks:tick}, y:{grid,ticks:tick,beginAtZero:true} } }
+});
+new Chart(document.getElementById('byfloor'), {
+  type: 'bar',
+  data: { labels: ['F1','F2','F3','F4','F5','F6'],
+    datasets: [{ data: [1,2,5,3,1,0], backgroundColor:'#f59e0b', borderRadius: 4 }] },
+  options: { indexAxis:'y', plugins:{legend:{display:false}}, scales:{ x:{grid,ticks:tick,beginAtZero:true}, y:{grid:{display:false},ticks:tick} } }
+});
+</script>
+<script src="app.js?v=charm-1"></script>
+</body>
+</html>
