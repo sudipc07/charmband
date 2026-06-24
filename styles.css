@@ -1051,27 +1051,63 @@ h3 {
 
   .product-gallery {
     display: grid;
-    min-height: 470px;
-    grid-auto-flow: column;
-    grid-auto-columns: 84%;
-    grid-template-columns: none;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-  }
-
-  .product-gallery::-webkit-scrollbar {
-    display: none;
+    min-height: 0;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+    overflow: visible;
   }
 
   .product-tile {
-    min-height: 470px;
+    display: flex;
+    min-height: 152px;
+    align-items: center;
+    border-right: 0;
     border-bottom: 1px solid var(--line);
-    scroll-snap-align: start;
+    padding: 20px 18px 20px 43%;
+  }
+
+  .product-tile-copy p {
+    margin-bottom: 4px;
+    font-size: 0.66rem;
+  }
+
+  .product-tile-copy h3 {
+    margin-bottom: 6px;
+    font-size: 1.22rem;
+  }
+
+  .product-tile-copy span {
+    display: block;
+    font-size: 0.78rem;
+    line-height: 1.35;
   }
 
   .product-tile img {
-    height: 72%;
+    right: auto;
+    bottom: 0;
+    left: 2%;
+    width: 38%;
+    height: 94%;
+    object-position: center;
+    transform: none;
+  }
+
+  .product-tile-band img {
+    left: 5%;
+    width: 30%;
+    height: 92%;
+  }
+
+  .product-tile-agri img {
+    left: 0;
+    width: 40%;
+    height: 94%;
+  }
+
+  .product-tile-beltpack img {
+    left: 3%;
+    width: 36%;
+    height: 88%;
   }
 
   .system-band,
